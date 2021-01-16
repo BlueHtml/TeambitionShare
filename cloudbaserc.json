@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "envId": "{{env.ENV_ID}}",
+  "framework": {
+    "name": "teambition-share",
+    "plugins": {
+      "server": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "cpu": 0.5,
+          "mem": 1,
+          "serviceName": "teambition-share",
+          "servicePath": "/",
+          "uploadType": "repository",
+          "codeDetail": {
+            "name": "teambition-share",
+            "url": "https://github.com/BlueHtml/TeambitionShare"
+          }
+        }
+      }
+    }
+  }
+}
