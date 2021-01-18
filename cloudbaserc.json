@@ -11,11 +11,11 @@
           "mem": 1,
           "serviceName": "teambition-share",
           "servicePath": "/",
-          "uploadType": "repository",
-          "codeDetail": {
-            "name": "teambition-share",
-            "url": "https://github.com/BlueHtml/TeambitionShare"
-          }
+          "uploadType": "image",
+          "containerPort": 8081,
+          "imageInfo": {
+            "imageUrl": "flxsnx/teambitionshare"
+          },
         }
       }
     }
